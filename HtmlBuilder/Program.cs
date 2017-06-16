@@ -13,9 +13,14 @@ namespace HtmlBuilder
         static void Main(string[] args)
         {
             //Testing();
-
+            OneMoreFunction();
            
 
+        }
+
+        private static void OneMoreFunction()
+        {
+            throw new NotImplementedException();
         }
 
         private static void Testing()
