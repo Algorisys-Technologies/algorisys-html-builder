@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlBuilder", "HtmlBuilder\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlBuilderCore", "HtmlBuilderCore\HtmlBuilderCore.csproj", "{A82C257A-C31B-4C65-A352-26AD5475445E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlFormBuilder", "HtmlFormBuilder\HtmlFormBuilder.csproj", "{C44783B0-24BC-47EF-BBB7-2997C448A6A4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{A82C257A-C31B-4C65-A352-26AD5475445E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A82C257A-C31B-4C65-A352-26AD5475445E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A82C257A-C31B-4C65-A352-26AD5475445E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C44783B0-24BC-47EF-BBB7-2997C448A6A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C44783B0-24BC-47EF-BBB7-2997C448A6A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C44783B0-24BC-47EF-BBB7-2997C448A6A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C44783B0-24BC-47EF-BBB7-2997C448A6A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -43,6 +43,10 @@
     <Compile Include="Elements\HtmlImage.cs" />
     <Compile Include="Elements\HtmlLink.cs" />
     <Compile Include="Elements\HtmlPara.cs" />
+    <Compile Include="Elements\HtmlPwdTextbox.cs" />
+    <Compile Include="Elements\HtmlRadio.cs" />
+    <Compile Include="Elements\HtmlTable.cs" />
+    <Compile Include="Elements\HtmlTextBox.cs" />
     <Compile Include="HtmlPage.cs" />
     <Compile Include="IHtmlElement.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
