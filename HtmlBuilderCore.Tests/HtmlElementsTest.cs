@@ -35,5 +35,32 @@ namespace HtmlBuilderCore.Tests
             Assert.IsInstanceOfType(hr, typeof(IHtmlElement));
             Assert.AreEqual(expectedHtml, genHtml);
         }
+
+        [TestMethod]
+        public void Check_if_HHeader_tag_returns_correct_html()
+        {
+            HtmlHeader head = new HtmlHeader();
+            head.ContentString = "Heading";
+            head.SizeOfString = 1;
+
+            string genHtml = head.GetHtmlString();
+            string expectedHtml = "<h1>Heading</h1>";
+
+            Assert.AreEqual(expectedHtml, genHtml);
+        } 
+
+        [TestMethod]
+        public void Check_if_Hlink_tag_returns_correct_html()
+        {
+            HtmlLink link = new HtmlLink();
+            link.LinkSrc = "https://in.yahoo.com/";
+            link.LinkText= "Yahooo!!";
+
+            string genhtml = link.GetHtmlString();
+            string expectedHtml = "<a href='https://in.yahoo.com/'>Yahooo!!</a>";
+
+            Assert.AreEqual(expectedHtml, genhtml);
+
+        }
     }
 }
