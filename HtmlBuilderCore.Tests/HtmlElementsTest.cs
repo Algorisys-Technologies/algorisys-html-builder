@@ -35,5 +35,21 @@ namespace HtmlBuilderCore.Tests
             Assert.IsInstanceOfType(hr, typeof(IHtmlElement));
             Assert.AreEqual(expectedHtml, genHtml);
         }
+        [TestMethod]
+        public void Check_if_List_tag_Return_correct_Html()
+        {
+            HtmlList list = new HtmlList();
+            list.ListType = "UnOrdered List";
+            list.Pattern = "circle";
+
+            string[] data = {"adi","adi","adi"};
+            list.AddData(data);
+
+            string genHtml = list.GetHtmlString();
+           // string expectedHtml = "<ol Type='1'><li>adi</li><li>adi</li><li>adi</li></ol>";
+            string expectedHtml = "<ul style='list-style-type:circle'><li>adi</li><li>adi</li><li>adi</li></ul>";
+            Assert.AreEqual(expectedHtml,genHtml);
+        }
+
     }
 }
